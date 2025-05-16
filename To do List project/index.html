@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Task Manager</h1>
+    <p>Stay on top of your daily to-dos</p>
+    <img src="colorful-todo-list-illustration_1308-173328.avif" width="80" height="80" alt="Task Banner">
+    
+  </header>
+
+  <main>
+    <section class="task-input">
+      <input type="text" id="taskInput" placeholder="Add a new task...">
+      <button onclick="addTask()">Add</button>
+    </section>
+    <section class="task-list">
+      <ul id="taskList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Stay organized, stay productive!</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
